@@ -1,6 +1,6 @@
 require "sinatra/base"
-require "haml"
-require "sass"
+require "tilt/haml"
+require "tilt/sass"
 
 module HollyBergemanName
   class Site < Sinatra::Base

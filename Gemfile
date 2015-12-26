@@ -1,11 +1,8 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-# Server
-gem 'thin'
+ruby "2.2.4"
 
-# Framework
-gem 'sinatra'
-
-# Markup
-gem 'haml'
-gem 'sass'
+gem "haml"
+gem "puma"
+gem "sass"
+gem "sinatra", "1.4.6"
