@@ -4,8 +4,8 @@ GEM
     haml (4.0.7)
       tilt
     puma (2.15.3)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    rack (1.6.11)
+    rack-protection (1.5.5)
       rack
     sass (3.4.20)
     sinatra (1.4.6)
